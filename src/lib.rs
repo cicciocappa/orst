@@ -17,6 +17,7 @@ impl<T> Sorter<T> for StdSorter {
 
 mod bubblesort;
 mod insertionsort;
+mod selectionsort;
 
 #[cfg(test)]
 mod tests {
